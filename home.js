@@ -127,3 +127,23 @@ for (let num = 0; num <= 10; num++) {
     emptyArray.push(num)
 }
 console.log(emptyArray)
+
+//Objects in javascript
+//dictionaries in python
+
+let student = {
+    first: 'navin',
+    last: 'kumar',
+    age: 22,
+    rollno: 1516,
+    studentinfo: function () {      //function inside the object
+        return this.first + '\n' + this.last
+    }
+}
+console.log(student.first);
+console.log(student.rollno)
+student.rollno = 1516106055
+console.log(student.rollno)
+student.age++;
+console.log(student.age)
+console.log(student.studentinfo()) //function inside the script object
