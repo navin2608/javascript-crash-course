@@ -147,3 +147,12 @@ console.log(student.rollno)
 student.age++;
 console.log(student.age)
 console.log(student.studentinfo()) //function inside the script object
+
+//control blocks
+
+//if statement
+let age = prompt("enter your age")
+if (age >= 18)
+    console.log("eligible for vote")
+else
+    console.log("not eligible to vote")
