@@ -2,11 +2,11 @@
     {
         "name": "navin",
         "age": 22,
-        "city": "karur",
+        "city": "karur"
     },
     {
         "name": "sudhakar",
         "age": 16,
-        "city": "chennai",
+        "city": "chennai"
     }
 ]

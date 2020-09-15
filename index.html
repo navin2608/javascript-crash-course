@@ -1,17 +1,36 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
-    
-</head>
-<body>
-   <!--<h1> <p id='someText'></p></h1> -->
-    <script src="home.js"></script>
-    
-    
 
-    
+
+</head>
+
+<body>
+    <!--<h1> <p id='someText'></p></h1> -->
+    <script src="home.js"></script>
+    <script>
+        let students = `[
+            {
+                "name": "navin",
+                "age": 22,
+                "city": "karur"
+            },
+            {
+                "name": "sudhakar",
+                "age": 16,
+                "city": "chennai"
+            }
+        ]`
+        console.log(JSON.parse(students))
+        console.log(JSON.parse(students)[0].age)
+    </script>
+
+
+
+
 </body>
+
 </html>
