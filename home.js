@@ -151,8 +151,29 @@ console.log(student.studentinfo()) //function inside the script object
 //control blocks
 
 //if statement
-let age = prompt("enter your age")
+let age = 22
 if (age >= 18)
     console.log("eligible for vote")
 else
     console.log("not eligible to vote")
+
+//switch statements
+let dayno = 6
+switch (dayno) {
+    case 0:
+        text = 'weekend'
+        break
+    case 1:
+        text = 'weekday'
+        break
+    case 2:
+        text = 'day'
+        break
+    case 6:
+        text = 'weekend'
+        break
+    default:
+        text = 'looking for weekend'
+        break
+}
+console.log(text)
