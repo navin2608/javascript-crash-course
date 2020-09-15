@@ -177,3 +177,4 @@ switch (dayno) {
         break
 }
 console.log(text)
+
