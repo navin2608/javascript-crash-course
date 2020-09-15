@@ -115,3 +115,15 @@ let vegetables = ['tomato', 'brinjal', 'cucumber']
 let allgroceries = fruits.concat(vegetables)      //combine arrays
 console.log(allgroceries)
 console.log(allgroceries.reverse());
+
+//numbers in array
+let somenumbers = [76, 54, 34, 12, 4, 6, 7, 25, 67]
+console.log(somenumbers.sort())
+console.log(somenumbers.sort(function (a, b) { return a - b })) //ascending order
+console.log(somenumbers.sort(function (a, b) { return b - a })) //descending order of numbers
+
+let emptyArray = new Array();           // pushing the elements in the array
+for (let num = 0; num <= 10; num++) {
+    emptyArray.push(num)
+}
+console.log(emptyArray)
